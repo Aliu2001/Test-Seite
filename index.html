@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antonio's Web Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #0066cc;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        nav {
+            background: #004c99;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 2rem;
+        }
+
+        .card {
+            background: white;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,.1);
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        button {
+            background: #0066cc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #004c99;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Antonio's Web Shop</h1>
+</header>
+
+<nav>
+    <a href="#">Startseite</a>
+    <a href="#">Produkte</a>
+    <a href="#">Turniere</a>
+    <a href="#">Kontakt</a>
+</nav>
+
+<main>
+
+    <div class="card">
+        <h2>Willkommen</h2>
+        <p>Dies ist meine erste Azure Static Web App.</p>
+        <button onclick="showMessage()">Klick mich</button>
+    </div>
+
+    <div class="card">
+        <h2>Über das Projekt</h2>
+        <p>
+            Diese Webseite wurde mit Azure Static Web Apps bereitgestellt.
+        </p>
+    </div>
+
+</main>
+
+<footer>
+    © 2026 Antonio's Web Shop
+</footer>
+
+<script>
+function showMessage() {
+    alert("Die Azure Static Web App funktioniert!");
+}
+</script>
+
+</body>
+</html>
